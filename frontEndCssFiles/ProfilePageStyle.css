@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: rgb(165, 233, 245);
+    font-family: Roboto, Helvetica, sans-serif;
+    
+}
+
+ .profile-container {
+    width: 50%;
+    height: 600px;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(233, 218, 211) ;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    justify-content:flex-start;
+    padding-left: 20px;
+}
+.profile{
+  padding: 50px;
+}
+
+.profile p{
+    color: #403e3e;
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 0px;
+    
+   display: flex;
+   justify-content: center;
+   
+}
+
+.profile a{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-left: 35%;
+ 
+}
+
+.profile form{
+    margin: 35px;
+    display: flexbox;
+
+
+}
+
+.input{
+ height:20px ;
+ width: 200px;
+ padding: 8px;
+margin-top: 20px;
+padding-left: 10px;
+padding-right: 10px;
+margin-left: 10%;
+border: 1px solid #b9b1b1;
+border-radius: 0px;
+outline: none;
+}
+
+form label {
+
+min-width: 200px;
+margin-left: 18%;
+}
+
+.update
+{
+    border : none;
+    width: 30%;
+    padding: 12px 0px;
+    margin: 40px 200px;
+    background-color:whitesmoke ;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+  
+
+}
+.update:hover{
+    background-color: #555;
+    color: whitesmoke;
+}
+
+/* footer{
+    height: 30px;
+    display: flex;
+    background-color: #555;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    position: relative;
+} */

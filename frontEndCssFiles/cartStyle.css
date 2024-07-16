@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {font-family: Roboto, Helvetica, sans-serif;}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+
+
+
+.button {
+  padding:0;
+  margin:0;
+  border:none;
+  font-size:14px;
+
+  color: #000000;
+  height:27px;
+  width:134px; 
+  font-variant:small-caps;
+}
+
+
+
+.button_active {
+  padding:0;
+  margin:0;
+  border:none;
+  font-size:14px;
+  
+  color: black;
+  height:27px;
+  width:134px; 
+  
+}
+  
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+ 
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+
+table {
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  margin-left: 10%;
+  margin-top:12%;
+}
+
+th {
+  cursor: pointer;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+  font-size: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #b9e7f9
+}
+
+
+
+

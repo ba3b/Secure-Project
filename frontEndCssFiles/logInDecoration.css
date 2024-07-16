@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*
+{
+    box-sizing: border-box;
+}
+body{
+    /* height: 100%;
+    width: 100%; */
+    font-family:  Roboto, sans-serif;
+    background-color: rgb(210, 242, 249);
+}
+h2{
+    text-align: center;
+}
+#box{
+ 
+    border: solid 3px rgb(231, 231, 231);
+    min-height: 300px;
+    width: 400px;
+    margin: auto;
+    margin-top: 10%;
+    /* height: 250px;
+    width: 500px; */
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    box-shadow: 0px 0px 10px rgb(259, 259, 259);
+}
+
+ #box input{
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0px;
+    border: solid 1px lightgrey;
+}
+#box #subnitButton{
+    border : none;
+    width: 100%;
+    padding: 12px 0px;
+    margin: 10px 0px;
+    background-color: rgb(42, 64, 231);
+    color: white;
+}
+#box #subnitButton:active{
+    background-color: rgb(75, 163, 245);
+}
